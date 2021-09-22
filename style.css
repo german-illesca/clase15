@@ -1,31 +1,98 @@
-h1 {
-    color: red;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
-h1 {
-    color: #1d0574;
-}
-
-img {
-    width: auto;
-    height: 300px;
-    ;
-}
-
-div p {
-    background-color: grey;
-}
-
+/*
 div {
+    padding: 300px;
+}
+
+div:nth-child(1) {
+    background: linear-gradient(90deg, rgba(176, 174, 238, 1) 0%, rgba(29, 30, 31, 1));
+}
+
+div:nth-child(3) {
+    background: radial-gradient(circle, red, brown, orange, yellow, blue);
+}
+
+div:nth-child(4) {
+    background: radial-gradient(farthest-corner at 40px 40px, #f35 0%, #43e 100%);
+}
+*/
+
+/*
+div {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(220, 0, 0, 0.9);
+    transform: skewY(25deg);
+}
+*/
+
+/*
+.container {
+    position: relative;
+}
+
+.box {
+    width: 180px;
+    height: 180px;
+    color: black;
+    background-color: red;
     text-align: center;
+    line-height: 120px;
+    margin: 20px;
+    float: left;
+    font-size: 20px;
+    font-family: Roboto;
+    transition: 1s linear;
 }
 
-.imgs {
-    border: 1px solid grey;
-    border-radius: 50px;
+.box:hover {
+    /*transform: perspective(150px) rotateY(45deg);*/
+    /*transform: matrix(0.5, 0.1, 0.5, 1, 10, -2);
+}
+*/
+
+.pelota {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(
+        circle at 0 0,
+        hsl(60, 100%, 50%) 25%,
+        hsl(60, 100%, 30%) 70%,
+        hsl(60, 100%, 1%)
+    );
+    animation: rebota 1s alternate infinite ease-in;
 }
 
-#imagenDestacada {
-    height: 200px;
-    border-color: lawngreen;
+.sombra {
+    width: 100px;
+    height: 1px;
+    background: #000;
+    box-shadow: 0 0 5px 5px #000;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .3;
+    transform: scale(0.5);
+    top: 290px;
+    animation: sombreado 1s alternate infinite ease-in;
+}
+
+@keyframes rebota {
+    90% {
+        height: 100px;
+    }
+
+    100% {
+        transform: translateY(200px);
+        height: 80px;
+    }
+}
+
+@keyframes sombreado {
+    100% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
 }
