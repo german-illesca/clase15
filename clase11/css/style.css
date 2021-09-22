@@ -1,0 +1,10 @@
+body {
+  font-size: 14px; }
+
+div {
+  background-color: red; }
+  div a {
+    color: yellow;
+    text-decoration: none; }
+    div a span {
+      color: red; }

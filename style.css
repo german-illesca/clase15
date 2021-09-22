@@ -1,0 +1,31 @@
+h1 {
+    color: red;
+}
+
+h1 {
+    color: #1d0574;
+}
+
+img {
+    width: auto;
+    height: 300px;
+    ;
+}
+
+div p {
+    background-color: grey;
+}
+
+div {
+    text-align: center;
+}
+
+.imgs {
+    border: 1px solid grey;
+    border-radius: 50px;
+}
+
+#imagenDestacada {
+    height: 200px;
+    border-color: lawngreen;
+}

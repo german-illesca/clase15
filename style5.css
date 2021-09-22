@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+div {
+    position: relative;
+    width: 60px;
+    padding: 40px;
+    background-color: red;
+    transform: skewy(-25deg);
+    margin-top: 300px;
+}
+
+div.animate {
+    border: solid 1px black;
+}
+
+@keyframes animacion {
+    from {}
+    to {
+        transform: translateX(100px);
+    }
+}
+
+.animate {
+    animation: animacion 2s linear 3s infinite alternate;
+}
+
+.container {
+    position: relative;
+}
+
+.box {
+    width: 180px;
+    height: 180px;
+    color: black;
+    text-align: center;
+    line-height: 120px;
+    margin: 20px;
+    float: left;
+    font-size: 20px;
+    font-family: Roboto;
+    transition: 1s linear;
+}
+
+.box:hover {
+    /*transform: perspective(150px) rotate(45deg);*/
+    transform: matrix(0.5, 0.1, 0.5, 1, 10, -2);
+}

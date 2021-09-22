@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de form</title>
+</head>
+
+<body>
+    <div class="contenedor-logo">
+        <a href="index.html"><img src="./images/logo.jpg" alt="LogoVeruVeru"></a>
+    </div>
+
+    <div class="menu-principal" id="encabezado">
+        <div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li>Productos</li>
+                <li id="barra-busqueda">Barra de búsqueda</li>
+                <li>Mi cuenta</li>
+                <li>Carrito</li>
+            </ul>
+        </div>
+    </div>
+    <!--<h1>VeruVeru bebés</h1>-->
+    <br>
+
+    <ul>
+        <a href="https://www.google.com">
+            <li>link hacia otra página</li>
+        </a>
+        <li>
+            <a href="#formulario">formulario</a>
+        </li>
+        <li>
+            <a href="listas.html">link hacia otro archivo</a>
+        </li>
+    </ul>
+
+    <ul>
+        <li>Futbol</li>
+        <li>Basquet</li>
+        <li>Hockey</li>
+        <li>Voley</li>
+    </ul>
+    <br>
+    <ol>
+        <li>Oro</li>
+        <li>Plata</li>
+        <li>Bronce</li>
+    </ol>
+
+    <table cellspacing="20px" cellpading="5px" border="1px solid black" height="200" width="auto" bgcolor="#ddd" align="center">
+        <tr>
+            <th>
+                Header 1
+            </th>
+            <th>
+                Header 2
+            </th>
+            <th>
+                Header 3
+            </th>
+        </tr>
+        <tr>
+            <td>
+                Dato 1
+            </td>
+            <td>
+                Dato 2
+            </td>
+            <td>
+                Dato 3
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Dato 4
+            </td>
+            <td>
+                Dato 5
+            </td>
+            <td>
+                Dato 6
+            </td>
+        </tr>
+    </table>
+
+    <form id="formulario">
+        <input type="text" placeholder="ingrese un texto" name="nombre" required>
+
+
+        <!--
+        <textarea></textarea>
+        <input type="button" value="no tiene accion">
+        <input type="reset" value="Refrescar">
+        -->
+
+        <div>Trabaja</div>
+        <input type="radio" name="trabaja" value="si">
+
+        <div>No trabaja</div>
+        <input type="radio" name="trabaja" value="no">
+
+
+        <div>Nacionalidad</div>
+        <input id="arg" type="checkbox" name="argentina" value="0">
+        <label for="arg">Argentina</label>
+
+        <input id="par" type="checkbox" name="paraguay" value="1">
+        <label for="par">Paraguay</label>
+
+        <input id="br" type="checkbox" name="brasil" value="2">
+        <label for="br">Argentina</label>
+
+        <br>
+        <select name=talles>
+            <option value="L">Grande</option>
+            <option value="M">Mediano</option>
+            <option value="S">Chico</option>
+        </select>
+
+
+
+
+
+        <br>
+        <input type="submit" value="Enviar los datos">
+    </form>
+</body>
+
+</html>

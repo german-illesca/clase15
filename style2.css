@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    height: auto;
+    width: 60%;
+}
+
+.contenedor p {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor .estatico {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.contenedor2 {
+    margin-top: 30px;
+    height: auto;
+    width: 60%;
+    text-align: center;
+}
+
+.contenedor2 ol {}
+
+.contenedor2 li {
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.contenedor2 .diferente {
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #0033ff;
+    letter-spacing: 1px;
+}
+
+.contenedor2 ul {
+    text-align: end;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+
+/*.estatico {
+    font-size: 20px !important;
+}*/
+
+.div {
+    width: 100%;
+}
+
+.div p {
+    width: 50%;
+    display: inline;
+}
+
+.div2 {
+    margin: 20px auto;
+    padding: 5px 25px;
+    border: 1px dotted red
+}
+
+.div3 {
+    width: 40px;
+    height: 50px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#unico {
+    font-size: 28px;
+}
+
+.div-1 {
+    margin: 20px auto;
+    padding: 5px 25px;
+    border: 1px dotted red
+}
+
+.div-2 {
+    margin: 20px auto;
+    padding: 5px 25px;
+    border: 1px dotted red
+}
+
+.div-3 {
+    margin: 20px auto;
+    padding: 5px 25px;
+    border: 1px dotted red
+}
+
+.div-4 {
+    margin: 20px auto;
+    padding: 5px 25px;
+    border: 1px dotted red
+}
+
+.div-5 {
+    margin: 20px auto;
+    padding: 5px 25px;
+    border: 1px dotted red
+}
+
+.div-6 {
+    margin: 20px auto;
+    padding: 5px 25px;
+    border: 1px dotted red
+}

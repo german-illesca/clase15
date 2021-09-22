@@ -1,0 +1,35 @@
+//variables
+$tamanio-fuente: 14px;
+$coder-amarillo: yellow;
+$coder-verde: red;
+$coder-verde: lightgreen !default;
+$animal: gato;
+$color-gris: gray;
+body {
+    font-size: $tamanio-fuente;
+}
+
+div {
+    background-color: $coder-verde;
+    a {
+        color: $coder-amarillo;
+        text-decoration: none;
+        span {
+            color: red;
+        }
+    }
+}
+
+p {
+    @if $animal==gato {
+        font-size: 14px;
+        color: $color-gris;
+    }
+    @else if $animal==perro {
+        color: black;
+        font-size: 15px;
+    }
+    @else {
+        color: blue;
+    }
+}
